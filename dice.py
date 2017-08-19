@@ -1,6 +1,6 @@
 # Script Name	: dice.py
-# Author		: Craig Richards
-# Created		: 05th February 2017
+# Author		: Sampath Kumar
+# Created		: 6th August 2017
 # Last Modified	: 
 # Version		: 1.0
 
@@ -15,7 +15,7 @@ class Die(object):
     self.sides=6
     
   """because a dice contains at least 4 planes.
-  So use this method to give it a judgement when you need to change the instance attributes."""
+  So use this method to give it a judgment when you need to change the instance attributes."""
   def set_sides(self, sides_change):
     if sides_change>=4:
       if sides_change != 6:

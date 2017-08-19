@@ -1,5 +1,5 @@
 """
-Written by  : Shreyas Daniel - github.com/shreydan
+Written by  : Sampath Kumar - github.com/sampathgoud42
 Description : Uses Pythons eval() function
               as a way to implement calculator.
              
@@ -74,7 +74,7 @@ def main():
 
     else:
         while True:
-            k = raw_input("\nWhat is ")
+            k = input("\nWhat is ")
             if k == 'quit':
                 break
             result(k)
